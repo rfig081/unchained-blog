@@ -27,7 +27,7 @@ function global:deactivate ([switch]$NonDestructive) {
 
 deactivate -nondestructive
 
-$env:VIRTUAL_ENV="C:\Users\reyno\documents\github\unchained-blog"
+$env:VIRTUAL_ENV="C:\Users\Reynold\documents\github\unchained-blog"
 
 if (! $env:VIRTUAL_ENV_DISABLE_PROMPT) {
     # Set the prompt to include the env name

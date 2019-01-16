@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\reyno\documents\github\unchained-blog"
+VIRTUAL_ENV="C:\Users\Reynold\documents\github\unchained-blog"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
