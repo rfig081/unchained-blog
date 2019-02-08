@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% load staticfiles %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,7 +12,7 @@
     <script src="//cdn.jsdelivr.net/npm/medium-editor@latest/dist/js/medium-editor.min.js"></script>
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/medium-editor@latest/dist/css/medium-editor.min.css" type="text/css" media="screen" charset="utf-8">
 
-    <link rel="stylesheet" href="{% static 'css/blog.css'%}">
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Russo+One" rel="stylesheet">
 </head>
@@ -19,7 +20,7 @@
     <nav class="navbar navbar-default techfont custom-navbar">
         <div class="container">
             <ul class="navbar navbar-nav">
-                <li><a class="navbar-brand bigbrand" href="{% url post_list %}">My blog</a></li>
+                <li><a class="navbar-brand bigbrand" href="{% url 'post_list' %}">My blog</a></li>
                 <li><a href="{% url 'about' %}">About</a></li>
                 <li><a href="https://www.github.com">Github</a></li>
                 <li><a href="https://www.linkedin.com">LinkedIn</a></li>
