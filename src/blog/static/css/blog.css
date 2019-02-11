@@ -28,8 +28,11 @@
 }
 
 .btn-comment {
-    position: absolute;
-    right: 0;
+    float: right
+}
+
+.clear {
+    clear: both;
 }
 
 .loader {
